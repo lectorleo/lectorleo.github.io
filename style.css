@@ -5,13 +5,11 @@
 body{
     /* height: 100vh; */
     /* max-width: 390px; */
-    margin: 0;
-	padding: 0;
     color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
 .mainPage{
-    padding: 0 10px;
+    padding: 5px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr; /*4 8*/
     /* margin: 0 auto;
@@ -40,7 +38,9 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.contact > .text > span {
+    color: var(--tg-theme-link-color);
+}
 
 
 .name{
