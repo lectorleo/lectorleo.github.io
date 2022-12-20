@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.mainPage{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: max(400px, 50vw);
+    font-size: 14px;
+}
+
+.left_side{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: flex-end; */
+
+}
+img{
+    width: 200px;
+    align-self: center;
+    /* margin: 0 auto;*/
+    border-radius: 50%;
+    margin-bottom: 30px;
+} 
+.about > .title, .contact > .title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right_side > .jobTitle{
+    margin: 14px 0;
+    font-size: 18px;
+}
+.edu > .title, .work > .title {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 14px;
+}
+.edu > .date, .work > .date {
+    color: rgb(0, 0, 0);
+    /* font-weight: 600; */
+    /* margin-bottom: 5px; */
+}
+.edu > .jobTitle, .work > .jobTitle {
+    color: rgb(0, 0, 0);
+    /* font-weight: 600; */
+    /* margin-bottom: 5px; */
+}
+
+.main_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(107, 30, 30);
+    margin-bottom: 14px;
+    padding-bottom: 5px;
+}
+.work_expirience {
+    margin-top: 14px;
+}
