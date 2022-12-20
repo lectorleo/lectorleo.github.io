@@ -4,6 +4,8 @@
 }
 body{
     height: 100vh;
+    color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
 }
 .mainPage{
     display: grid;
