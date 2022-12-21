@@ -38,10 +38,15 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
-.contact > .text > a {
+/* .contact > .text > a {
     color: var(--tg-theme-link-color);
+} */
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: var(--tg-theme-link-color);
 }
-
 
 .name{
     font-size: 30px;
