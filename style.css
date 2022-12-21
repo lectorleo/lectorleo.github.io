@@ -38,7 +38,7 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
-.contact > .text > span {
+.contact > .text > a {
     color: var(--tg-theme-link-color);
 }
 
